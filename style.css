@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.gird_five {
+    width: 1920px;
+    margin: 0 auto;
+
+}
+
+.head {
+    width: 100%;
+    height: 134px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.head_in_box {
+    font-weight: bold;
+    color: black;
+}
+
+.head_in_small_box {
+    margin-left: 50px;
+}
+
+.img {
+    width: 653px;
+    height: 427px;
+
+}
+
+.second_box {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_box_text {
+    padding-bottom: 40px;
+    font-size: 42px;
+    color: #0085FF;
+    font-weight: bold;
+}
+
+.second_box_text1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.second_box_text2 {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.second_box_text3 {
+    width: 88px;
+    height: 1px;
+    background-color: black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+.second_box_text4 {
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+.third_box {
+    padding-top: 100px;
+    height: 385px;
+}
+
+.third_box_text {
+    color: #0085FF;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.third_box_text2 {
+    margin-top: 40px;
+    font-size: 18px;
+
+}
+
+.third_gray_box {
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.one_gray_box_first {
+    font-size: 18px;
+}
+
+.one_gray_box {
+    margin-left: 20px;
+}
+
+.gray_box_text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.gray_box_text2 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.gray_box_text1 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.four_box {
+    padding-top: 100px;
+    height: 385px;
+}
+
+.four_box_text1 {
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #0085FF;
+}
+
+.four_box_text2 {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.center-text {
+    text-align: center;
+    font-size: 100px;
+}
+
+.four_gradation_box {
+    width: 10px;
+    height: 141px;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    background: linear-gradient(#0085FF, #ffffff);
+}
+
+.five_box {
+    margin-top: 300px;
+    width: 1915px;
+    height: 180px;
+    background-color: #707070;
+    display: flex;
+    align-items: center;
+}
+
+.five_in_box {
+    margin-left: 150px;
+}
+
+.five_box_text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.five_box_text2 {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.four_box_text3 {
+    margin-left: 50px;
+}
+
+.four_box_text4 {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.four_box_1 {
+    display: flex;
+}
+
+.four_box_2 {
+    display: flex;
+    padding-top: 40px;
+}
+
+.four_box_3 {
+    display: flex;
+    padding-top: 40px;
+}
+
+.four_box_text5 {
+    margin-left: 50px;
+}
+
+.four_box_text6 {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.four_box_text7 {
+    margin-left: 50px;
+}
+
+.four_box_text8 {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.four_box_gray_box {
+    background-color: #707070;
+    width: 624px;
+    height: 52px;
+
+}
+
+.four_big_box {
+    margin-top: 40px;
+    width: 1200px;
+    height: 382px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.four_gray_input {
+    border-radius: 10px;
+    width: 624px;
+    height: 52px;
+    background-color: #f6f6f6;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.four_gray_textarea {
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 624px;
+    height: 204px;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+    border: none;
+}
+
+.four_gray_textarea2 {
+    border-radius: 10px;
+    float: right;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 136px;
+    height: 36px;
+    background-color: #0085FF;
+    border: none;
+
+}
+
+.button {
+    /* position: absolute;
+    background-color: #0085FF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    */
+    height: 7px;
+    width: 140px;
+    */
+}
+
+.four_box_text3 {
+    /* margin-top: 20px; */
+}
